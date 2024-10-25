@@ -6,7 +6,7 @@ This repository contains code for detecting c-Fos protein expression in images u
 ## Overview
 
 The main images contain different colors and channels:
-![Alt text](blevel_eq_lowerQ.png.png)
+![Alt text](blevel_eq_lowerQ.png)
 The code utilizes three channels from the main images:
 
 - **Alexa Fluor 488**
