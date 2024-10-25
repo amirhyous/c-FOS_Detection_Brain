@@ -30,6 +30,8 @@ The workflow includes the following steps:
 
 3. **Testing**:
    - The trained model is tested using smaller chunks of images to evaluate performance.
+     ![Alt text](test_image.png)
+
 
 4. **Image Assembly**:
    - After segmentation, the smaller tiles are assembled back into a larger image for comprehensive analysis.
