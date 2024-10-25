@@ -11,6 +11,8 @@ The code utilizes three channels from the main images:
 
 - **Alexa Fluor 488**
 - **Alexa Fluor 594**
+![Alt text](data/blevel_Alexa Fluor 594.png)
+
 - **DAPI**
 
 The workflow includes the following steps:
