@@ -12,7 +12,7 @@ The code utilizes three channels from the main images:
 
 - **Alexa Fluor 488**
 - **Alexa Fluor 594**
-- 
+  
 ![Alt text](blevel_Alexa_Fluor_594_lowerQ.png)
 
 - **DAPI**
@@ -22,7 +22,7 @@ The workflow includes the following steps:
 1. **Image Preprocessing**:
    - High-resolution images are divided into smaller tiles of size **100x100 pixels** for efficient processing.
      
-    ![Alt text](blevel_Alexa_Fluor_594_chunks_chunk_13_56.png)
+                                                            ![Alt text](blevel_Alexa_Fluor_594_chunks_chunk_13_56.png)
 
 
 2. **Model Training**:
