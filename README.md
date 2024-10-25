@@ -6,11 +6,13 @@ This repository contains code for detecting c-Fos protein expression in images u
 ## Overview
 
 The main images contain different colors and channels:
+
 ![Alt text](blevel_eq_lowerQ.png)
 The code utilizes three channels from the main images:
 
 - **Alexa Fluor 488**
 - **Alexa Fluor 594**
+- 
 ![Alt text](blevel_Alexa_Fluor_594_lowerQ.png)
 
 - **DAPI**
@@ -19,6 +21,9 @@ The workflow includes the following steps:
 
 1. **Image Preprocessing**:
    - High-resolution images are divided into smaller tiles of size **100x100 pixels** for efficient processing.
+     
+    ![Alt text](blevel_Alexa_Fluor_594_chunks_chunk_13_56.png)
+
 
 2. **Model Training**:
    - The U-Net model is trained on these smaller image tiles, using the corresponding ground truth annotations for accurate segmentation.
